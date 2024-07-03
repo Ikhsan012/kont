@@ -1,0 +1,18 @@
+debug: false
+uuid: bda780a6-5dcd-4fb1-92c5-12a640c6be44
+token_id: n7hJ9GywHuDO2Cxf
+token: PgG8wBclyH9f9ExvJrYwO5qHaITJCx2pJqxH2lpggqJ52RMKT2a06VTT4SWecTjo
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/nodes1.smpnnasional.email/fullchain.pem
+    key: /etc/letsencrypt/live/nodes1.smpnnasional.email/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'http://dash.smpnnasional.email
